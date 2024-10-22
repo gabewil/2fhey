@@ -320,6 +320,11 @@
          "serviceName": "Twitter",
          "matcherPattern": "Twitter login code: (\\d{6,9})",
          "codeExtractorPattern": "(\\d{6,9})"
+      },
+      {
+	  "serviceName": "Citi",
+	  "matcherPattern": "^Citi ID Code:.+$",
+	  "codeExtractorPattern": "^Citi ID Code:\\s*(\\d{8})\\s*"
       }
    ]
 }
